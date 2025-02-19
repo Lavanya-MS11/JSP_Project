@@ -1,4 +1,7 @@
 Class Demo{
 public static void main(String[] args)
+String str="Lavanya";
 System.out.println("My First project");
+Syetem.out.println(str.replaceAll("[aeiou]","");
 }
+
