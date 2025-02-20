@@ -1,0 +1,20 @@
+class VowelIndex 
+{
+	public static void main(String[] args) 
+	{
+		String str="programming";
+		int count=0;
+		String res="";
+		
+		for(int i=0;i<str.length();i++)
+		{
+			char ch=str.charAt(i);
+			if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+			{
+				res=res+ch.charAt(i);
+			}
+		}
+		
+		System.out.println(res);
+	}
+}
